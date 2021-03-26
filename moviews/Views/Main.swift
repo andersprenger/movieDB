@@ -9,19 +9,15 @@ import SwiftUI
 
 struct Main: View {
     var body: some View {
-        ScrollView {
-            HStack {
-                Text("MoviesDB")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .bold()
-                Spacer()
+        NavigationView {
+            ScrollView {
+                NowPlaying()
+                Divider()
+                    .padding()
+                PopularMovies()
+                    .padding()
             }
-                .padding()
-            NowPlaying()
-            Divider()
-                .padding()
-            PopularMovies()
-                .padding()
+            .navigationTitle("MovieDB")
         }
     }
 }

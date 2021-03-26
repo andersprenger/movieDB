@@ -19,6 +19,7 @@
 		71D1010D260D138100FFB1B0 /* RoundedCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1010C260D138100FFB1B0 /* RoundedCover.swift */; };
 		71D10110260D229B00FFB1B0 /* PopularMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1010F260D229B00FFB1B0 /* PopularMovies.swift */; };
 		71D10113260D22B600FFB1B0 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D10112260D22B600FFB1B0 /* NowPlaying.swift */; };
+		71E33267260E6A980055DF15 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E33266260E6A980055DF15 /* MovieDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		71D1010C260D138100FFB1B0 /* RoundedCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCover.swift; sourceTree = "<group>"; };
 		71D1010F260D229B00FFB1B0 /* PopularMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovies.swift; sourceTree = "<group>"; };
 		71D10112260D22B600FFB1B0 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		71E33266260E6A980055DF15 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				71D1010F260D229B00FFB1B0 /* PopularMovies.swift */,
 				71D10112260D22B600FFB1B0 /* NowPlaying.swift */,
 				71BB9818260D6DAC0069F71E /* Main.swift */,
+				71E33266260E6A980055DF15 /* MovieDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				71D10103260D05E200FFB1B0 /* MovieItem.swift in Sources */,
 				71D100FF260D05CA00FFB1B0 /* MovieCover.swift in Sources */,
 				71D100EE260D057300FFB1B0 /* moviewsApp.swift in Sources */,
+				71E33267260E6A980055DF15 /* MovieDetails.swift in Sources */,
 				71D10110260D229B00FFB1B0 /* PopularMovies.swift in Sources */,
 				71D10113260D22B600FFB1B0 /* NowPlaying.swift in Sources */,
 				71D1010D260D138100FFB1B0 /* RoundedCover.swift in Sources */,

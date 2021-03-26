@@ -29,7 +29,7 @@ struct MovieItem: View {
                     .fontWeight(.heavy)
                 Text(description)
                     .frame(height: 75, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                Text("⭐️ \(String(rate ?? 0))")
+                Text("\(Image(systemName: "star")) \(String(rate ?? 0))")
             }
         }
     }
