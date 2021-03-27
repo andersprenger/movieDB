@@ -17,7 +17,9 @@ struct PopularMovies: View {
             }
             VStack {
                 ForEach (5..<hardcodedMovies.count){ index in
-                    MovieItem(of: hardcodedMovies[index])
+                    NavigationLink(destination: MovieDetails(movie: hardcodedMovies[index])) {
+                        MovieItem(of: hardcodedMovies[index])
+                    }
                 }
             }
         }

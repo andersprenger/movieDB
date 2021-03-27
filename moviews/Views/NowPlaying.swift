@@ -17,11 +17,14 @@ struct NowPlaying: View {
                 Text("See All")
             }
             .padding(.horizontal)
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     Spacer()
                     ForEach (0..<5) { index in
-                        MovieCover(of: hardcodedMovies[index])
+                        let indexMovie = hardcodedMovies[index]
+                        NavigationLink(destination: MovieDetails(movie: indexMovie)) {
+                            MovieCover(of: indexMovie)
+                        }
                     }
                 }
             }
