@@ -35,6 +35,8 @@ struct MovieDetails: View {
             }
             
             Text(movie.description)
+                .font(.footnote)
+                .foregroundColor(.gray)
             Spacer()
         }
         .padding()
@@ -44,5 +46,6 @@ struct MovieDetails: View {
 struct MovieDetails_Previews: PreviewProvider {
     static var previews: some View {
         MovieDetails(movie: hardcodedMovies[0])
+            .preferredColorScheme(.dark)
     }
 }

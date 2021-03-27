@@ -15,7 +15,7 @@ struct PopularMovies: View {
                     .fontWeight(.heavy)
                 Spacer()
             }
-            VStack {
+            VStack (alignment: .leading, spacing: nil){
                 ForEach (5..<hardcodedMovies.count){ index in
                     NavigationLink(destination: MovieDetails(movie: hardcodedMovies[index])) {
                         MovieItem(of: hardcodedMovies[index])

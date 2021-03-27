@@ -28,13 +28,15 @@ struct MovieItem: View {
                 Text(title)
                     .fontWeight(.heavy)
                     .frame(height: 20, alignment: .trailing)
+                    .foregroundColor(Color("dynamic text collor"))
                 Text(description)
                     .frame(height: 65, alignment: .trailing)
+                    .foregroundColor(.gray)
                 Text("\(Image(systemName: "star")) \(String(rate ?? 0))")
                     .frame(height: 20, alignment: .trailing)
+                    .foregroundColor(.gray)
             }
         }
-        .foregroundColor(Color("dynamic text collor"))
     }
 }
 

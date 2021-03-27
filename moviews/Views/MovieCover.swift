@@ -25,9 +25,10 @@ struct MovieCover: View {
             Text(title)
                 .fontWeight(.bold)
                 .frame(width: 180, height: 20, alignment: .bottomLeading)
+                .foregroundColor(Color("dynamic text collor"))
             Text("\(Image(systemName: "star")) \(String(rate ?? 0))")
+                .foregroundColor(.gray)
         }
-        .foregroundColor(Color("dynamic text collor"))
     }
 }
 
